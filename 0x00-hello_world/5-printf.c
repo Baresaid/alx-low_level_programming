@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - A program tha prints aline with the printf fuction
- * return: 0 (success)
+ * main - prints "with proper grammar, but the outcome is a piece of art,"
+ * Return: Always 0.
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n")
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
