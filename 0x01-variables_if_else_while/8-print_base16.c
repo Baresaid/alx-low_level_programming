@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
 /**
  * main -main block
@@ -12,12 +10,20 @@ int main(void)
 {
 	int c;
 
-	c = 'z';
+	int d;
+
+	c = 'a';
+	d = 0;
 	while
-	(c >= 'a') {
-			  putchar(c);
-				  c--;
+	(d < 10) {
+		putchar(d + '0');
+		d++;
 	}
+	while
+		(c <= 'f') {
+			putchar(c);
+	c++;
+		}
 	putchar('\n');
 	return (0);
-
+}
