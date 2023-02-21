@@ -6,15 +6,13 @@
  * prints the alphabet, in lowercase, followed by a new line.
  * Return: Always 0
  */
-int main(void)
+void print_alphabet(void);
 {
 
-	int start = 97, end = 122;
-
-	while (start <= end)
+	int j;
+	for (j = 'a'; j <= 'z'; j++)
 	{
-		_putchar(start);
-		start++;
+		_putchar(j);
 	}
 	_putchar('\n');
 	return (0);
