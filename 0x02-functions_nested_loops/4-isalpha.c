@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - checks for the alphabet characters
+ * _isalpha - checks for the alphabet characters
  * @c: the character to be checked
  * Return: 1
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
