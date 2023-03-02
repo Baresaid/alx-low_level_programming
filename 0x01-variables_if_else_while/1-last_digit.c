@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
- /**
- * main - Entry point
- * Description: Assign a ranndom number, cmpare it with 5
- * Return: 0
- */
-int main(void)
+/*
+* Main - The last digit
+* Description: This program will assign a random number to the variable n
+* Return: Always 0 (succes)
+*/
+int main (void)
 {
 	int n;
 	int last;
