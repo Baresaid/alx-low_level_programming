@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * main - program that prints exactly 
+ * main - program that prints exactly
  * Return: always return (0)
  */
 
